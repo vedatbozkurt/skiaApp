@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* SkiaAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* SkiaAppTests.m */; };
+		0A97D14263AA73570EB20338 /* libPods-SkiaApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91FFA892EBB053C52D093086 /* libPods-SkiaApp.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		19BD1745BC119129E01348C3 /* libPods-SkiaApp-SkiaAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96BEBBE05D82B9DA94CB64C9 /* libPods-SkiaApp-SkiaAppTests.a */; };
-		7956E6E416E813B0EFBE0BC5 /* libPods-SkiaApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 547502D230927819DD520740 /* libPods-SkiaApp.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		F15E44D52BAB49C83153EAAC /* libPods-SkiaApp-SkiaAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43F9DCD3D20AF04C6D77B7F2 /* libPods-SkiaApp-SkiaAppTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,13 +36,13 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SkiaApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SkiaApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SkiaApp/main.m; sourceTree = "<group>"; };
-		390D26680C665C55B7E01BCF /* Pods-SkiaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkiaApp.release.xcconfig"; path = "Target Support Files/Pods-SkiaApp/Pods-SkiaApp.release.xcconfig"; sourceTree = "<group>"; };
-		547502D230927819DD520740 /* libPods-SkiaApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SkiaApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C5AF7B30E3EB84F959937B9 /* Pods-SkiaApp-SkiaAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkiaApp-SkiaAppTests.debug.xcconfig"; path = "Target Support Files/Pods-SkiaApp-SkiaAppTests/Pods-SkiaApp-SkiaAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D53A73763591251D1C27FD5 /* Pods-SkiaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkiaApp.release.xcconfig"; path = "Target Support Files/Pods-SkiaApp/Pods-SkiaApp.release.xcconfig"; sourceTree = "<group>"; };
+		43F9DCD3D20AF04C6D77B7F2 /* libPods-SkiaApp-SkiaAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SkiaApp-SkiaAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5985806E6EF0D3E6029A8903 /* Pods-SkiaApp-SkiaAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkiaApp-SkiaAppTests.debug.xcconfig"; path = "Target Support Files/Pods-SkiaApp-SkiaAppTests/Pods-SkiaApp-SkiaAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = SkiaApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		96BEBBE05D82B9DA94CB64C9 /* libPods-SkiaApp-SkiaAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SkiaApp-SkiaAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A305795008A8FD13E61BBBBC /* Pods-SkiaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkiaApp.debug.xcconfig"; path = "Target Support Files/Pods-SkiaApp/Pods-SkiaApp.debug.xcconfig"; sourceTree = "<group>"; };
-		AF1B625C03470BBE5D581D2F /* Pods-SkiaApp-SkiaAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkiaApp-SkiaAppTests.release.xcconfig"; path = "Target Support Files/Pods-SkiaApp-SkiaAppTests/Pods-SkiaApp-SkiaAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		82D9AEE7BFE19FE253B45165 /* Pods-SkiaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkiaApp.debug.xcconfig"; path = "Target Support Files/Pods-SkiaApp/Pods-SkiaApp.debug.xcconfig"; sourceTree = "<group>"; };
+		91FFA892EBB053C52D093086 /* libPods-SkiaApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SkiaApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E04B1E4BB697D8946C00023D /* Pods-SkiaApp-SkiaAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkiaApp-SkiaAppTests.release.xcconfig"; path = "Target Support Files/Pods-SkiaApp-SkiaAppTests/Pods-SkiaApp-SkiaAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19BD1745BC119129E01348C3 /* libPods-SkiaApp-SkiaAppTests.a in Frameworks */,
+				F15E44D52BAB49C83153EAAC /* libPods-SkiaApp-SkiaAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7956E6E416E813B0EFBE0BC5 /* libPods-SkiaApp.a in Frameworks */,
+				0A97D14263AA73570EB20338 /* libPods-SkiaApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				547502D230927819DD520740 /* libPods-SkiaApp.a */,
-				96BEBBE05D82B9DA94CB64C9 /* libPods-SkiaApp-SkiaAppTests.a */,
+				91FFA892EBB053C52D093086 /* libPods-SkiaApp.a */,
+				43F9DCD3D20AF04C6D77B7F2 /* libPods-SkiaApp-SkiaAppTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -121,7 +121,7 @@
 				00E356EF1AD99517003FC87E /* SkiaAppTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				E6C380664BC37B742C8A6DFD /* Pods */,
+				BF44E85D7E0BEFD1EFABB838 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -137,13 +137,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E6C380664BC37B742C8A6DFD /* Pods */ = {
+		BF44E85D7E0BEFD1EFABB838 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A305795008A8FD13E61BBBBC /* Pods-SkiaApp.debug.xcconfig */,
-				390D26680C665C55B7E01BCF /* Pods-SkiaApp.release.xcconfig */,
-				7C5AF7B30E3EB84F959937B9 /* Pods-SkiaApp-SkiaAppTests.debug.xcconfig */,
-				AF1B625C03470BBE5D581D2F /* Pods-SkiaApp-SkiaAppTests.release.xcconfig */,
+				82D9AEE7BFE19FE253B45165 /* Pods-SkiaApp.debug.xcconfig */,
+				2D53A73763591251D1C27FD5 /* Pods-SkiaApp.release.xcconfig */,
+				5985806E6EF0D3E6029A8903 /* Pods-SkiaApp-SkiaAppTests.debug.xcconfig */,
+				E04B1E4BB697D8946C00023D /* Pods-SkiaApp-SkiaAppTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -156,12 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "SkiaAppTests" */;
 			buildPhases = (
-				20788BA52290893E4A7093C0 /* [CP] Check Pods Manifest.lock */,
+				C8C8B914763DBE010A76C674 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				6F5BA99D44548EC3BE0A464D /* [CP] Embed Pods Frameworks */,
-				5454DE2F6A2AC9A3C0FEBBD5 /* [CP] Copy Pods Resources */,
+				1465B6BCD254B25ECC93269D /* [CP] Embed Pods Frameworks */,
+				77CA8D40CAAC89EC8258ACE2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -177,14 +177,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "SkiaApp" */;
 			buildPhases = (
-				506F7B05AAA51FBF4EC97A96 /* [CP] Check Pods Manifest.lock */,
+				3984191CB10A3B8D0C1EA869 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				2DCC2C97CAF0DB72B3D82110 /* [CP] Embed Pods Frameworks */,
-				59E3F5D23B4358505EA59114 /* [CP] Copy Pods Resources */,
+				E55943F0F4156F3072E95ADB /* [CP] Embed Pods Frameworks */,
+				09D19415FB00F4716746365F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,46 +265,41 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		20788BA52290893E4A7093C0 /* [CP] Check Pods Manifest.lock */ = {
+		09D19415FB00F4716746365F /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SkiaApp/Pods-SkiaApp-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SkiaApp-SkiaAppTests-checkManifestLockResult.txt",
+				"${PODS_ROOT}/Target Support Files/Pods-SkiaApp/Pods-SkiaApp-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SkiaApp/Pods-SkiaApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2DCC2C97CAF0DB72B3D82110 /* [CP] Embed Pods Frameworks */ = {
+		1465B6BCD254B25ECC93269D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SkiaApp/Pods-SkiaApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SkiaApp-SkiaAppTests/Pods-SkiaApp-SkiaAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SkiaApp/Pods-SkiaApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SkiaApp-SkiaAppTests/Pods-SkiaApp-SkiaAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SkiaApp/Pods-SkiaApp-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SkiaApp-SkiaAppTests/Pods-SkiaApp-SkiaAppTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		506F7B05AAA51FBF4EC97A96 /* [CP] Check Pods Manifest.lock */ = {
+		3984191CB10A3B8D0C1EA869 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -326,7 +321,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5454DE2F6A2AC9A3C0FEBBD5 /* [CP] Copy Pods Resources */ = {
+		77CA8D40CAAC89EC8258ACE2 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -343,38 +338,43 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SkiaApp-SkiaAppTests/Pods-SkiaApp-SkiaAppTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		59E3F5D23B4358505EA59114 /* [CP] Copy Pods Resources */ = {
+		C8C8B914763DBE010A76C674 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SkiaApp/Pods-SkiaApp-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SkiaApp/Pods-SkiaApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkiaApp-SkiaAppTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SkiaApp/Pods-SkiaApp-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6F5BA99D44548EC3BE0A464D /* [CP] Embed Pods Frameworks */ = {
+		E55943F0F4156F3072E95ADB /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SkiaApp-SkiaAppTests/Pods-SkiaApp-SkiaAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SkiaApp/Pods-SkiaApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SkiaApp-SkiaAppTests/Pods-SkiaApp-SkiaAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SkiaApp/Pods-SkiaApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SkiaApp-SkiaAppTests/Pods-SkiaApp-SkiaAppTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SkiaApp/Pods-SkiaApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -429,7 +429,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C5AF7B30E3EB84F959937B9 /* Pods-SkiaApp-SkiaAppTests.debug.xcconfig */;
+			baseConfigurationReference = 5985806E6EF0D3E6029A8903 /* Pods-SkiaApp-SkiaAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -456,7 +456,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF1B625C03470BBE5D581D2F /* Pods-SkiaApp-SkiaAppTests.release.xcconfig */;
+			baseConfigurationReference = E04B1E4BB697D8946C00023D /* Pods-SkiaApp-SkiaAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -480,7 +480,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A305795008A8FD13E61BBBBC /* Pods-SkiaApp.debug.xcconfig */;
+			baseConfigurationReference = 82D9AEE7BFE19FE253B45165 /* Pods-SkiaApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -506,7 +506,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 390D26680C665C55B7E01BCF /* Pods-SkiaApp.release.xcconfig */;
+			baseConfigurationReference = 2D53A73763591251D1C27FD5 /* Pods-SkiaApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
