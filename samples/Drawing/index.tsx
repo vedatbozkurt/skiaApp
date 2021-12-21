@@ -13,7 +13,7 @@ import {
 
 type Point = { x: number; y: number };
 
-const DrawingExample: React.FC = () => {
+export const DrawingExample: React.FC = () => {
   const paint = usePaint((p) => p.setColor(Skia.Color("#7FC8A9")));
   const prevPointRef = useRef<Point>();
 
@@ -107,5 +107,3 @@ const styles = StyleSheet.create({
     paddingHorizontal: 14,
   },
 });
-
-export default DrawingExample;

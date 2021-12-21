@@ -1,10 +1,3 @@
-/*
- * @Author: @vedatbozkurt
- * @Email: info@wedat.org
- * @Date: 2021-12-21 04:30:42
- * @LastEditors: @vedatbozkurt
- * @LastEditTime: 2021-12-21 04:30:42
- */
 import React, { useCallback } from "react";
 import { Dimensions, StyleSheet } from "react-native";
 import type { AnimationValue } from "@shopify/react-native-skia";
@@ -51,7 +44,7 @@ const Ring = ({ index, progress }: RingProps) => {
   );
 };
 
-const Breathe = () => {
+export const Breathe = () => {
   const progress = useLoop(
     {
       duration: 3000,
@@ -83,4 +76,3 @@ const styles = StyleSheet.create({
     flex: 1,
   },
 });
-export default Breathe;
