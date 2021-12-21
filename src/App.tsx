@@ -1,3 +1,10 @@
+/*
+ * @Author: @vedatbozkurt
+ * @Email: info@wedat.org
+ * @Date: 2021-12-21 22:57:12
+ * @LastEditors: @vedatbozkurt
+ * @LastEditTime: 2021-12-21 23:16:46
+ */
 import { NavigationContainer } from "@react-navigation/native";
 import React from "react";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
@@ -9,6 +16,9 @@ import { Filters } from "./Examples/Filters";
 import { Gooey } from "./Examples/Gooey";
 import { Hue } from "./Examples/Hue";
 import { HomeScreen } from "./Home";
+import { SamplesScreen } from "./Samples/SamplesScreen";
+import {HelloWorld} from "./Samples/HelloWorld";
+import {PaintDemo} from "./Samples/PaintDemo";
 
 const App = () => {
   const Stack = createNativeStackNavigator();
@@ -30,6 +40,9 @@ const App = () => {
         <Stack.Screen name="Hue" component={Hue} />
         <Stack.Screen name="Drawing" component={DrawingExample} />
         <Stack.Screen name="Animation" component={AnimationExample} />
+        <Stack.Screen name="Samples" component={SamplesScreen} />
+        <Stack.Screen name="HelloWorld" component={HelloWorld} />
+        <Stack.Screen name="PaintDemo" component={PaintDemo} />
       </Stack.Navigator>
     </NavigationContainer>
   );

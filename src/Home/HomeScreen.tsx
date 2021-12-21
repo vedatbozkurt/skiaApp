@@ -1,3 +1,10 @@
+/*
+ * @Author: @vedatbozkurt
+ * @Email: info@wedat.org
+ * @Date: 2021-12-21 22:58:06
+ * @LastEditors: @vedatbozkurt
+ * @LastEditTime: 2021-12-21 22:58:06
+ */
 import React from "react";
 import { StyleSheet, View } from "react-native";
 
@@ -36,6 +43,11 @@ export const HomeScreen: React.FC = () => {
         title="Animation"
         description="Animated with Skia"
         route="Animation"
+      />
+      <HomeScreenButton
+        title="Samples"
+        description="Doc Samples"
+        route="Samples"
       />
     </View>
   );
