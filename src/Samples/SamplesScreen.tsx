@@ -3,7 +3,7 @@
  * @Email: info@wedat.org
  * @Date: 2021-12-21 22:55:56
  * @LastEditors: @vedatbozkurt
- * @LastEditTime: 2021-12-22 00:11:15
+ * @LastEditTime: 2021-12-22 15:15:42
  */
 import React from "react";
 import { StyleSheet, View } from "react-native";
@@ -17,6 +17,7 @@ export const SamplesScreen: React.FC = () => {
       <HomeScreenButton title="PaintDemo" description="PaintDemo sample" route="PaintDemo" />
       <HomeScreenButton title="Group" description="Group sample" route="Group" />
       <HomeScreenButton title="ImageDemo" description="ImageDemo sample" route="ImageDemo" />
+      <HomeScreenButton title="ShaderDemo" description="ShaderDemo sample" route="ShaderDemo" />
     </View>
   );
 };
