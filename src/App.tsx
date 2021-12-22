@@ -3,7 +3,7 @@
  * @Email: info@wedat.org
  * @Date: 2021-12-21 22:57:12
  * @LastEditors: @vedatbozkurt
- * @LastEditTime: 2021-12-22 15:16:12
+ * @LastEditTime: 2021-12-22 21:29:13
  */
 import { NavigationContainer } from "@react-navigation/native";
 import React from "react";
@@ -22,6 +22,7 @@ import {PaintDemo} from "./Samples/PaintDemo";
 import {GroupDemo} from "./Samples/Group";
 import {ImageDemo} from "./Samples/ImageDemo";
 import {ShaderDemo} from "./Samples/ShaderDemo";
+import {EffectsDemo} from "./Samples/EffectsDemo";
 
 const App = () => {
   const Stack = createNativeStackNavigator();
@@ -49,6 +50,7 @@ const App = () => {
         <Stack.Screen name="Group" component={GroupDemo} />
         <Stack.Screen name="ImageDemo" component={ImageDemo} />
         <Stack.Screen name="ShaderDemo" component={ShaderDemo} />
+        <Stack.Screen name="EffectsDemo" component={EffectsDemo} />
       </Stack.Navigator>
     </NavigationContainer>
   );
